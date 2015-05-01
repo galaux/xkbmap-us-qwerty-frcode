@@ -16,3 +16,9 @@ Section "InputClass"
         Option "XkbLayout" "us_qwerty_frcode"
 EndSection
 ```
+
+Files:
+
+- `us_qwerty_frcode`: X keyboard configuration file
+- `PKGBUILD`: source package for Arch Linux
+- `README.MD`: this file
