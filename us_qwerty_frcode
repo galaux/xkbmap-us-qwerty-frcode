@@ -53,7 +53,7 @@ xkb_symbols "frcode" {
     key <AE02> { [2,            at,           twosuperior                       ] };
     key <AE03> { [3,            numbersign,   ecircumflex,      Ecircumflex     ] };
     key <AE04> { [4,            dollar,       EuroSign,         sterling        ] };
-    key <AE05> { [5,            percent,      U2030                             ] };
+    key <AE05> { [5,            percent,      U2030                             ] }; // ‰
     key <AE07> { [7,            ampersand,    ucircumflex,      Ucircumflex     ] };
     key <AE08> { [8,            asterisk,     icircumflex,      Icircumflex     ] };
     key <AE09> { [9,            parenleft,    ocircumflex,      Ocircumflex     ] };
@@ -76,17 +76,17 @@ xkb_symbols "frcode" {
     key <AC03> { [d,            D,            equal,            notequal        ] };
     key <AC04> { [f,            F,            minus,            0x1002013       ] };
     key <AC05> { [g,            G,            plus,             multiply        ] };
-    key <AC06> { [h,            H,            Left,             U2190           ] };
-    key <AC07> { [j,            J,            Down,             U2193           ] };
-    key <AC08> { [k,            K,            Up,               U2191           ] };
-    key <AC09> { [l,            L,            Right,            U2192           ] };
+    key <AC06> { [h,            H,            Left,             U2190           ] }; // ←
+    key <AC07> { [j,            J,            Down,             U2193           ] }; // ↓
+    key <AC08> { [k,            K,            Up,               U2191           ] }; // ↑
+    key <AC09> { [l,            L,            Right,            U2192           ] }; // →
     key <AC10> { [semicolon,    colon                                           ] };
     key <AC11> { [apostrophe,   quotedbl,     idiaeresis,       Idiaeresis      ] };
 
     key <AB01> { [z,            Z,            braceleft                         ] };
-    key <AB02> { [x,            X,            bracketleft,      U2717           ] };
+    key <AB02> { [x,            X,            bracketleft,      U2717           ] }; // ✓ "check mark"
     key <AB03> { [c,            C,            bracketright,     copyright       ] };
-    key <AB04> { [v,            V,            braceright,       U2713           ] };
+    key <AB04> { [v,            V,            braceright,       U2713           ] }; // ✗ "ballot x"
     key <AB05> { [b,            B,            ccedilla,         Ccedilla        ] };
     key <AB06> { [n,            N,            ellipsis                          ] };
     key <AB07> { [m,            M,            U263A                             ] }; // ☺
