@@ -6,37 +6,37 @@ xkb_symbols "frcode" {
 //
 // Extra — AltGr, AltGr+Shift
 // ┌─────┬─────┬─────┬─────┬─────┬─────┰─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━┓
-// │     │     │     │   Ê │   £ │     ┃     │   Û │   Î │   Ô │   Œ │   Ä │     ┃          ┃
-// │     │   ° │   ² │   ê │   € │   ‰ ┃     │   û │   î │   ô │   œ │   ä │     ┃ ⌫        ┃
+// │     │     │     │   Ê │   £ │     ┃     │   Û │   Î │   Ô │   Œ │     │     ┃          ┃
+// │     │   ° │   ² │   ê │   € │     ┃     │   û │   î │   ô │   œ │     │     ┃ ⌫        ┃
 // ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━━┫
-// ┃        ┃   Â │   É │   È │   ® │   ™ ┃     │   Ù │   Ì │   Ò │   Œ │   Ë │     ┃       ┃
-// ┃ ↹      ┃   â │   é │   è │   | │   \ ┃     │   ù │   ì │   ò │   œ │   ë │     ┃       ┃
+// ┃        ┃   Â │   É │   È │     │     ┃     │   Ù │   Ì │   Ò │   Œ │     │     ┃       ┃
+// ┃ ↹      ┃   â │   é │   è │   ® │   ™ ┃     │   ù │   ì │   ò │   œ │     │     ┃       ┃
 // ┣━━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┺┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓  ⏎   ┃
-// ┃         ┃   À │     │   ≠ │   — │   × ┃   ← │   ↓ │   ↑ │   → │   Ë │   Ï │     ┃      ┃
-// ┃ ⇬       ┃   à │   _ │   = │   - │   + ┃   ⇐ │   ⇓ │   ⇑ │   ⇒ │   ë │   ï │     ┃      ┃
+// ┃         ┃   À │     │   Ë │     │     ┃   ← │   ↓ │   ↑ │   → │   « │   » │     ┃      ┃
+// ┃ ⇬       ┃   à │     │   ë │   – │     ┃   ⇐ │   ⇓ │   ⇑ │   ⇒ │     │   ’ │     ┃      ┃
 // ┣━━━━━━┳━━┹──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┲━━┷━━━━━┻━━━━━━┫
-// ┃      ┃   Ö │     │   ✗ │   © │   ✓ │   Ç ┃     │     │   ≤ │   ≥ │   Ü ┃               ┃
-// ┃ ⇧    ┃   ö │   { │   [ │   ] │   } │   ç ┃   … │   ☺ │     │     │   ü ┃ ⇧             ┃
+// ┃      ┃     │     │     │   Ç │     │     ┃   Ÿ │   Ü │   Ï │   Ö │     ┃               ┃
+// ┃ ⇧    ┃     │     │   ✗ │   ç │   ✓ │   … ┃   ÿ │   ü │   ï │   ö │     ┃ ⇧             ┃
 // ┣━━━━━━┻┳━━━━┷━━┳━━┷━━━━┱┴─────┴─────┴─────┸─────┴─────┴─┲━━━┷━━━┳━┷━━━━━╋━━━━━━━┳━━━━━━━┫
 // ┃       ┃       ┃       ┃                                ┃       ┃       ┃       ┃       ┃
 // ┃ Ctrl  ┃ super ┃ Alt   ┃ Esc                            ┃ AltGr ┃ super ┃ menu  ┃ Ctrl  ┃
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 
-// Extra - TypeMatrix 2030
+// Extra – TypeMatrix 2030
 // ┏━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┳━━━━━┓
 // ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃
 // ┡━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━┫     ┣━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━┩
-// │     │     │     │   Ê │   £ │     ┣━━━━━┫     │   Û │   Î │   Ô │     │   Ä │     │     │
-// │     │   ° │   ² │   ê │   € │   ‰ ┃     ┃     │   û │   î │   ô │     │   ä │     │     │
+// │     │     │     │   Ê │   £ │     ┣━━━━━┫     │   Û │   Î │   Ô │     │     │     │     │
+// │     │   ° │   ² │   ê │   € │     ┃     ┃     │   û │   î │   ô │     │     │     │     │
 // ├─────┼─────┼─────┼─────┼─────┼─────┨     ┠─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
-// │     │   Â │   É │   È │   ® │   ™ ┃     ┃     │   Ù │   Ì │   Ò │   Œ │   Ë │     │     │
-// │     │   â │   é │   è │   | │   \ ┃ ⌫   ┃     │   ù │   ì │   ò │   œ │   ë │     │     │
+// │     │   Â │   É │   È │     │     ┃     ┃     │   Ù │   Ì │   Ò │   Œ │     │     │     │
+// │     │   â │   é │   è │   ® │   ™ ┃ ⌫   ┃     │   ù │   ì │   ò │   œ │     │     │     │
 // ├─────╆━━━━━┿━━━━━┿━━━━━┿━━━━━╅─────╊━━━━━╉─────╆━━━━━┿━━━━━┿━━━━━┿━━━━━╅─────┼─────┼─────┤
-// │ ⇧   ┃   À │     │   ≠ │   – ┃   × ┃     ┃   ← ┃   ↓ │   ↑ │   → │     ┃   Ï │⇧    │     │
-// │     ┃   à │   _ │   = │   - ┃   + ┃     ┃   ⇐ ┃   ⇓ │   ⇑ │   ⇒ │     ┃   ï │     │     │
+// │ ⇧   ┃   À │     │   Ë │     ┃     ┃     ┃   ← ┃   ↓ │   ↑ │   → │   « ┃   » │⇧    │     │
+// │     ┃   à │     │   ë │   – ┃     ┃     ┃   ⇐ ┃   ⇓ │   ⇑ │   ⇒ │     ┃   ’ │     │     │
 // │     ┡━━━━━┿━━━━━┿━━━━━┿━━━━━╃─────┨     ┠─────╄━━━━━┿━━━━━┿━━━━━┿━━━━━╃─────┤     ├─────┤
-// │     │     │   ✗ │   © │   ✓ │   Ç ┃     ┃     │     │   ≤ │   ≥ │   Ü │   Ö │     │     │
-// │     │   { │   [ │   ] │   } │   ç ┃ ⏎   ┃   … │   ☺ │     │     │   ü │   ö │     │     │
+// │     │     │     │   Ç │     │     ┃     ┃   Ÿ │   Ü │   Ï │   Ö │     │     │     │     │
+// │     │     │   ✗ │   ç │   ✓ │   … ┃ ⏎   ┃   ÿ │   ü │   ï │   ö │     │     │     │     │
 // ┢━━━━━╈━━━━━╈━━━━━╈━━━━━╅─────┴─────┺━━━━━┹─────┴─────╆━━━━━╈━━━━━╈━━━━━╈━━━━━╈━━━━━╈━━━━━┪
 // ┃Ctrl ┃     ┃     ┃     ┃                             ┃     ┃     ┃     ┃     ┃Ctrl ┃     ┃
 // ┃     ┃     ┃     ┃     ┃                             ┃     ┃     ┃     ┃     ┃     ┃     ┃
@@ -53,47 +53,46 @@ xkb_symbols "frcode" {
     key <AE02> { [2,            at,           twosuperior                       ] };
     key <AE03> { [3,            numbersign,   ecircumflex,      Ecircumflex     ] };
     key <AE04> { [4,            dollar,       EuroSign,         sterling        ] };
-    key <AE05> { [5,            percent,      U2030                             ] }; // ‰
+    key <AE05> { [5,            percent                                         ] };
     key <AE07> { [7,            ampersand,    ucircumflex,      Ucircumflex     ] };
     key <AE08> { [8,            asterisk,     icircumflex,      Icircumflex     ] };
     key <AE09> { [9,            parenleft,    ocircumflex,      Ocircumflex     ] };
 
-    key <AE11> { [minus,        underscore,   adiaeresis,       Adiaeresis      ] };
-
     key <AD01> { [q,            Q,            acircumflex,      Acircumflex     ] };
     key <AD02> { [w,            W,            eacute,           Eacute          ] };
     key <AD03> { [e,            E,            egrave,           Egrave          ] };
-    key <AD04> { [r,            R,            bar,              registered      ] };
-    key <AD05> { [t,            T,            backslash,        trademark       ] };
+
+    key <AD04> { [r,            R,            U00AE,            R               ] }; // ®
+    key <AD05> { [t,            T,            U2122,            T               ] }; // ™
+
     key <AD07> { [u,            U,            ugrave,           Ugrave          ] };
     key <AD08> { [i,            I,            igrave,           Igrave          ] };
     key <AD09> { [o,            O,            ograve,           Ograve          ] };
     key <AD10> { [p,            P,            oe,               OE              ] };
-    key <AD11> { [bracketleft,  braceleft,    ediaeresis,       Ediaeresis      ] };
 
     key <AC01> { [a,            A,            agrave,           Agrave          ] };
-    key <AC02> { [s,            S,            underscore                        ] };
-    key <AC03> { [d,            D,            equal,            notequal        ] };
-    key <AC04> { [f,            F,            minus,            0x1002013       ] };
-    key <AC05> { [g,            G,            plus,             multiply        ] };
-    key <AC06> { [h,            H,            Left,             U2190           ] }; // ←
-    key <AC07> { [j,            J,            Down,             U2193           ] }; // ↓
-    key <AC08> { [k,            K,            Up,               U2191           ] }; // ↑
-    key <AC09> { [l,            L,            Right,            U2192           ] }; // →
-    key <AC10> { [semicolon,    colon                                           ] };
-    key <AC11> { [apostrophe,   quotedbl,     idiaeresis,       Idiaeresis      ] };
 
-    key <AB01> { [z,            Z,            braceleft                         ] };
-    key <AB02> { [x,            X,            bracketleft,      U2717           ] }; // ✓ "check mark"
-    key <AB03> { [c,            C,            bracketright,     copyright       ] };
-    key <AB04> { [v,            V,            braceright,       U2713           ] }; // ✗ "ballot x"
-    key <AB05> { [b,            B,            ccedilla,         Ccedilla        ] };
-    key <AB06> { [n,            N,            ellipsis                          ] };
-    key <AB07> { [m,            M,            U263A                             ] }; // ☺
-    key <AB08> { [comma,        less,         comma,            lessthanequal   ] };
-    key <AB09> { [period,       greater,      period,           greaterthanequal] };
-    key <AB10> { [slash,        question,     udiaeresis,       Udiaeresis      ] };
-    key <BKSL> { [backslash,    bar,          odiaeresis,       Odiaeresis      ] };
+    key <AC03> { [d,            D,            ediaeresis,       Ediaeresis      ] };
+    key <AC04> { [f,            F,            0x1002013                         ] }; // –
+
+
+    key <AC06> { [h,            H,            Left,             U2190           ] };
+    key <AC07> { [j,            J,            Down,             U2193           ] };
+    key <AC08> { [k,            K,            Up,               U2191           ] };
+    key <AC09> { [l,            L,            Right,            U2192           ] };
+    key <AC10> { [semicolon,    colon,        semicolon,        U00AB           ] }; // «
+    key <AC11> { [apostrophe,   quotedbl,     U2019,            U00BB           ] }; // ’ »
+
+    key <AB01> { [z,            Z                                               ] };
+    key <AB02> { [x,            X,            U2717,            X               ] }; // ✗
+    key <AB03> { [c,            C,            ccedilla,         Ccedilla        ] };
+    key <AB04> { [v,            V,            U2713,            V               ] }; // ✓
+    key <AB05> { [b,            B,            ellipsis                          ] }; // …
+
+    key <AB06> { [n,            N,            ydiaeresis,       Ydiaeresis      ] };
+    key <AB07> { [m,            M,            udiaeresis,       Udiaeresis      ] };
+    key <AB08> { [comma,        less,         idiaeresis,       Idiaeresis      ] };
+    key <AB09> { [period,       greater,      odiaeresis,       Odiaeresis      ] };
 
     key <SPCE> { [ space,       space,        Escape                            ] };
     key <CAPS> { [ Shift_L                                                      ] };
