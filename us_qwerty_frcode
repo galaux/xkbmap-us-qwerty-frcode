@@ -95,7 +95,6 @@ xkb_symbols "frcode" {
     key <AB09> { [period,       greater,      odiaeresis,       Odiaeresis      ] };
 
     key <SPCE> { [ space,       space,        Escape                            ] };
-    key <CAPS> { [ Shift_L                                                      ] };
 
     include "level3(ralt_switch)"
 };

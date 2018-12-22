@@ -14,6 +14,8 @@ Section "InputClass"
         Identifier "system-keyboard"
         MatchIsKeyboard "on"
         Option "XkbLayout" "us_qwerty_frcode"
+        # Optional: Caps Lock key becomes Ctrl
+        Option "XkbOptions" "ctrl:nocaps"
 EndSection
 ```
 
