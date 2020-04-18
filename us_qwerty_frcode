@@ -94,6 +94,7 @@ xkb_symbols "frcode" {
     key <AB07> { [m,            M,            udiaeresis,       Udiaeresis      ] };
     key <AB08> { [comma,        less,         idiaeresis,       Idiaeresis      ] };
     key <AB09> { [period,       greater,      odiaeresis,       Odiaeresis      ] };
+    key <AB10> { [slash,        question,     Greek_lambda                      ] }; // λ
 
     key <SPCE> { [ space,       space,        Escape                            ] };
 
