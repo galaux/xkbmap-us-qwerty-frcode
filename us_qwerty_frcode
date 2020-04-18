@@ -27,7 +27,7 @@ xkb_symbols "frcode" {
 // ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃     ┃
 // ┡━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━┫     ┣━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━╇━━━━━┩
 // │     │     │     │   Ê │   £ │     ┣━━━━━┫     │   Û │   Î │   Ô │     │     │     │     │
-// │     │   ° │   ² │   ê │   € │     ┃     ┃     │   û │   î │   ô │     │     │     │     │
+// │     │   ° │   ² │   ê │   € │     ┃     ┃     │   û │   î │   ô │     │     │   ≠ │     │
 // ├─────┼─────┼─────┼─────┼─────┼─────┨     ┠─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤
 // │     │   Â │   É │   È │     │     ┃     ┃     │   Ù │   Ì │   Ò │   Œ │     │     │     │
 // │     │   â │   é │   è │   ® │   ™ ┃ ⌫   ┃     │   ù │   ì │   ò │   œ │     │     │     │
@@ -57,6 +57,7 @@ xkb_symbols "frcode" {
     key <AE07> { [7,            ampersand,    ucircumflex,      Ucircumflex     ] };
     key <AE08> { [8,            asterisk,     icircumflex,      Icircumflex     ] };
     key <AE09> { [9,            parenleft,    ocircumflex,      Ocircumflex     ] };
+    key <AE12> { [equal,        plus,         U2260                             ] }; // ≠
 
     key <AD01> { [q,            Q,            acircumflex,      Acircumflex     ] };
     key <AD02> { [w,            W,            eacute,           Eacute          ] };
