@@ -76,10 +76,10 @@ xkb_symbols "frcode" {
     key <AC04> { [f,            F,            0x1002013                         ] }; // –
 
 
-    key <AC06> { [h,            H,            Left,             U2190           ] };
-    key <AC07> { [j,            J,            Down,             U2193           ] };
-    key <AC08> { [k,            K,            Up,               U2191           ] };
-    key <AC09> { [l,            L,            Right,            U2192           ] };
+    key <AC06> { [h,            H,            Left,             U2190           ] }; // ←
+    key <AC07> { [j,            J,            Down,             U2193           ] }; // ↓
+    key <AC08> { [k,            K,            Up,               U2191           ] }; // ↑
+    key <AC09> { [l,            L,            Right,            U2192           ] }; // →
     key <AC10> { [semicolon,    colon,        semicolon,        U00AB           ] }; // «
     key <AC11> { [apostrophe,   quotedbl,     U2019,            U00BB           ] }; // ’ »
 
